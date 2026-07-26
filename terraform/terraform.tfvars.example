@@ -1,0 +1,10 @@
+environment_name          = "staging"
+network_name              = "staging-network"
+application_container_name = "staging-app"
+database_container_name   = "staging-db"
+
+application_port = 8080
+
+database_name     = "staging_db"
+database_user     = "staging_user"
+database_password = "CHANGE_ME"
