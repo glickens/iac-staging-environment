@@ -1,3 +1,5 @@
+# Docker Network
+
 resource "docker_network" "staging_network" {
   name = var.network_name
 }
